@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='table'
+    )
+}}
+
 SELECT
   provider_id AS inpatient_provider_id,
   provider_name AS inpatient_provider_name,
